@@ -59,3 +59,30 @@ font-size: 40px;
     text-decoration: none;
     transition: background 0.2s, color 0.2s;
 }
+.navbar a:hover{
+    background-color: rgb(27, 189, 204);
+}
+/* ======== MAIN CONTENT ========= */
+/* Kontainer utama isi halaman */
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+/* Sidebar/left column bagian samping */
+.side {
+    flex: 30%;
+    background-color: #31e4d8ab;
+    padding: 20px;
+}
+/* Main column bagian utama content */
+.main {
+    flex: 70%;
+    background-color: rgb(244, 245, 239);
+    padding: 20px;
+}
+/* Fake image: blok gambar palsu */
+.fakeing {
+    /* background-color: #aaa; */
+    width: 100%;
+    padding: 5px;
+}
